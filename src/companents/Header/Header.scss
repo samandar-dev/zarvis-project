@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px 16px;
+
+  &__title {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    align-items: center;
+    letter-spacing: 0.016em;
+    color: #00261c;
+    margin-bottom: 4px;
+  }
+  &__tit {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #707eae;
+  }
+  &__user-box {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+  }
+  &__user-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016em;
+    color: #00261c;
+    margin-right: 8px;
+  }
+}

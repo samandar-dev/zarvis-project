@@ -1,0 +1,26 @@
+.search {
+  width: auto;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 51px;
+
+  input {
+    outline: none;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #bfbfbf;
+    line-height: 17px;
+    background: #fff;
+    border-radius: 51px;
+    padding: 15px 23px 17px;
+  }
+  button {
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+}

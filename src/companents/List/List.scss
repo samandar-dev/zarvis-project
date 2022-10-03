@@ -1,0 +1,126 @@
+.list {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-right: 10px;
+
+  &__top-box {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f7f8fa;
+    border: 1px solid #eff0f4;
+    margin-bottom: 10px;
+  }
+  &__top-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  &__top-item {
+    p {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      color: #505470;
+      margin-bottom: 0;
+    }
+  }
+  &__main-box {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eff0f4;
+    margin-bottom: 20px;
+  }
+  &__main-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  &__main-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  &__main-item-user-messages {
+    display: flex;
+    align-items: center;
+  }
+  &__main-item-icon {
+    font-size: 22px;
+    margin-right: 26px;
+    text-align: center;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &__main-item-user-box {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+  &__main-item-user-img {
+    img {
+      width: 35px;
+      height: 35px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 0 auto;
+      margin-right: 10px;
+    }
+  }
+  &__main-item-user-name {
+    p {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 14px;
+      color: #192a3e;
+      text-align: left;
+    }
+    input {
+    }
+    span {
+      display: inline-block;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 12px;
+      color: #90a0b7;
+    }
+  }
+  &__main-item-rides,
+  &__main-item-finished,
+  &__main-item-location {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #192a3e;
+  }
+  &__main-item-btns {
+    button {
+      font-size: 28px;
+      color: #5a55d2;
+      margin: 0 5px;
+      transition: all 0.3s ease;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  &__pagnition {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: auto;
+    p {
+      margin-right: 20px;
+    }
+  }
+}
